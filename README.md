@@ -38,23 +38,24 @@ printf("Enter the value of G (Primitive root of P): ");
 scanf("%lld", &G);  
 printf("The value of G: %lld\n\n", G); 
 a = 4; 
-printf("The private key a for Alice: %lld\n", a); 
+printf("The private key a for HARISH: %lld\n", a); 
 x = power(G, a, P);  
 b = 3;  
-printf("The private key b for Bob: %lld\n\n", b); 
+printf("The private key b for KUMAR: %lld\n\n", b); 
 y = power(G, b, P); 
 ka = power(y, a, P);  
 kb = power(x, b, P);  
-printf("Secret key for the Alice is: %lld\n", ka); 
-printf("Secret key for the Bob is: %lld\n", kb); 
+printf("Secret key for the HARISH is: %lld\n", ka); 
+printf("Secret key for the KUMAR is: %lld\n", kb); 
 return 0; 
 } 
+
 
 ```
 
 
 ## Output:
-<img width="1676" height="883" alt="image" src="https://github.com/user-attachments/assets/ac42d4d3-d9d2-4942-94cc-104e6ea9dfdf" />
+<img width="1681" height="887" alt="image" src="https://github.com/user-attachments/assets/e9955e06-5d09-481e-adbb-ee5a2032190d" />
 
 
 
